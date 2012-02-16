@@ -1,0 +1,26 @@
+name: Tournamental
+version: 0.1
+main: me.Chryb.Tournamental.Tournamental
+author: Chryb
+website: http://rested.de
+commands:
+   tpos1:
+      description: This is a setprotection command.
+      permission: <plugin name>.setprotection
+      usage: /<command>
+   tpos2:
+      description: This is a cs command.
+      permission: <plugin name>.cs
+      usage: /<command>
+   defzone:
+      description: This is a defregion command.
+      permission: <plugin name>.defzone
+      usage: /<command> [zone-name]
+   tlist:
+      description: This is a plugininfo command.
+      permission: <plugin name>.plugininfo
+      usage: /<command>
+   tvert:
+      description: This is a pos1 command.
+      permission: <plugin name>.pos1
+      usage: /<command>
