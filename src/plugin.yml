@@ -1,17 +1,9 @@
 name: Tournamental
-version: 0.1
+version: 0.6
 main: me.Chryb.Tournamental.Tournamental
 author: Chryb
 website: http://rested.de
 commands:
-   tpos1:
-      description: This is a setprotection command.
-      permission: <plugin name>.setprotection
-      usage: /<command>
-   tpos2:
-      description: This is a cs command.
-      permission: <plugin name>.cs
-      usage: /<command>
    defzone:
       description: This is a defregion command.
       permission: <plugin name>.defzone
@@ -20,7 +12,23 @@ commands:
       description: This is a plugininfo command.
       permission: <plugin name>.plugininfo
       usage: /<command>
-   tvert:
-      description: This is a pos1 command.
-      permission: <plugin name>.pos1
-      usage: /<command>
+   addclass:
+      description: This is a addclass command.
+      permission: <plugin name>.addclass
+      usage: /<command> [player] [class]
+   addlobby:
+      description: This is a addlobby (for arena) command.
+      permission: <plugin name>.addlobby
+      usage: /<command> [zone-name]
+   addfight:
+      description: This is a addfight (for arena) command.
+      permission: <plugin name>.addfight
+      usage: /<command> [zone-name]
+   addteam:
+      description: This is a addteam (for arena) command.
+      permission: <plugin name>.addteam
+      usage: /<command> [zone-name]
+   getlevel:
+      description: This is a getlevel (for admins) command.
+      permission: <plugin name>.getlevel
+      usage: /<command> [level]
